@@ -51,7 +51,7 @@ Todo App is a web application that allows users to manage their tasks efficientl
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/remre/todo_app_try.git
+git clone https://github.com/remre/todo_assignment_bizcuit.git
 ```
 
 2. Install dependencies for both client and server:
@@ -88,7 +88,7 @@ npm run dev
 
 ## Testing
 
-- Vitest and Supertest are used for testing the backend. To run the tests, navigate to the backend directory and run:
+- Vitest and Supertest are used for testing the `backend`. To run the tests, navigate to the backend directory and run:
 
 ```bash
 npm test
