@@ -1,0 +1,29 @@
+.task-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-item.done {
+  opacity: 0.9;
+  background-color: #84e688;
+}
+
+.task-item.not-done {
+  opacity: 0.8;
+  background-color: #ecc6c6;
+}
+
+.task-item.editing {
+  transition: transform 5s ease;
+  transform: scale(1.01);
+}
+.task-item button {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.task-item button:hover {
+  background-color: #e2d6d6;
+  color: black;
+}
